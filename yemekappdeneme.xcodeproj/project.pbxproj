@@ -16,6 +16,8 @@
 		BE8909932964CA3B00CD3FB0 /* yemekappdenemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8909922964CA3B00CD3FB0 /* yemekappdenemeTests.swift */; };
 		BE89099D2964CA3B00CD3FB0 /* yemekappdenemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE89099C2964CA3B00CD3FB0 /* yemekappdenemeUITests.swift */; };
 		BE89099F2964CA3B00CD3FB0 /* yemekappdenemeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE89099E2964CA3B00CD3FB0 /* yemekappdenemeUITestsLaunchTests.swift */; };
+		BE8909AC2964CA9300CD3FB0 /* yemeklerbilgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8909AB2964CA9300CD3FB0 /* yemeklerbilgi.swift */; };
+		BE8909AE2964CB0900CD3FB0 /* cellyemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8909AD2964CB0900CD3FB0 /* cellyemekler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BE8909982964CA3B00CD3FB0 /* yemekappdenemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yemekappdenemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE89099C2964CA3B00CD3FB0 /* yemekappdenemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yemekappdenemeUITests.swift; sourceTree = "<group>"; };
 		BE89099E2964CA3B00CD3FB0 /* yemekappdenemeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yemekappdenemeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE8909AB2964CA9300CD3FB0 /* yemeklerbilgi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yemeklerbilgi.swift; sourceTree = "<group>"; };
+		BE8909AD2964CB0900CD3FB0 /* cellyemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellyemekler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				BE8909842964CA3A00CD3FB0 /* Assets.xcassets */,
 				BE8909862964CA3A00CD3FB0 /* LaunchScreen.storyboard */,
 				BE8909892964CA3A00CD3FB0 /* Info.plist */,
+				BE8909AB2964CA9300CD3FB0 /* yemeklerbilgi.swift */,
+				BE8909AD2964CB0900CD3FB0 /* cellyemekler.swift */,
 			);
 			path = yemekappdeneme;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8909AE2964CB0900CD3FB0 /* cellyemekler.swift in Sources */,
 				BE8909802964CA3500CD3FB0 /* ViewController.swift in Sources */,
 				BE89097C2964CA3500CD3FB0 /* AppDelegate.swift in Sources */,
 				BE89097E2964CA3500CD3FB0 /* SceneDelegate.swift in Sources */,
+				BE8909AC2964CA9300CD3FB0 /* yemeklerbilgi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
